@@ -43,12 +43,12 @@ npm install
 
 ### 2.2 Rodando a aplicação
 
-Para rodar a aplicação, utilize o comando:
+1º - Para rodar a aplicação, utilize o comando:
 
 ```
 npm run serve
 ```
-Em seguida, acesse seu navegador em: http://localhost:8080/
+2º - Em seguida, acesse seu navegador em: http://localhost:8080/
 
 
 ### 2.3 Compilação e Empacotamento
@@ -59,6 +59,7 @@ Em seguida, acesse seu navegador em: http://localhost:8080/
 npm run build
 ```
 2º - Aguarde até que a compilação seja concluída.
+
 3º - O pacote final será gerado na pasta dist/.
 
 
