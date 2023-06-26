@@ -1,5 +1,5 @@
 # Olá, sejá bem vindo !!
-# Projeto Front End => Pokedex
+# Pokedex
 
 ## Tabela de Conteúdos
 
