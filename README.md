@@ -7,6 +7,7 @@
 - [Início Rápido](#2-início-rápido)
   - [Instalando dependências](#21-instalando-dependências)
   - [Rodando a aplicação](#22-rodando-a-aplicação)
+  - [Compilação e Empacotamento](#23-rodando-a-aplicação)
 
 ---
 
@@ -32,7 +33,9 @@ Certifique-se de ter o Node.js instalado.
 
 ### 2.1. Instalando Dependências
 
-Clone o projeto em sua máquina e instale as dependências com o comando:
+1º - Clone o projeto em sua máquina: git clone <URL do Repositório>
+
+2º - Instale as dependências com o comando:
 
 ```shell
 npm install
@@ -48,40 +51,15 @@ npm run serve
 Em seguida, acesse seu navegador em: http://localhost:8080/
 
 
+### 2.3 Compilação e Empacotamento
 
+1º - Para rodar a aplicação, utilize o comando:
 
-
-
-
-
-
-
-
-
-
-
-
-# pokedex_fidelizou.me
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
 ```
 npm run build
 ```
+2º - Aguarde até que a compilação seja concluída.
+3º - O pacote final será gerado na pasta dist/.
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
