@@ -16,6 +16,7 @@
 [ Voltar para o topo ](#tabela-de-conteúdos)
 
 Trata-se de uma aplicação front-end que utiliza a API do Pokémon (https://pokeapi.co/.) onde são renderizados os cards de cada pokemon da 1ª temporada do Anime (Pokemons da ilha de kanto). Onde pode clicar no card do Pokemon e ver suas imagem, sua imagem shiny e suas estatísticas de batalha. Tambem pode pesquisar pelo nome do pokemon na barra de pesquisa, logo abaixo existem 4 botões que mostam em forma de grafico estas estatisticas podendo assim comparar os pokemons e ver qual é o mais forte para baalhar.
+
 As tecnologias utilizadas foram:
 
 - [TypeScript](https://www.typescriptlang.org/)
