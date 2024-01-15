@@ -194,7 +194,7 @@ export default class Cards extends Vue {
   color: white;
   width:  400px;
   height: 715px;
-  max-width: 90%;
+  max-height: 90%;
   border: 3px solid rgb(216, 209, 209);
   border-radius: 8px;
 }

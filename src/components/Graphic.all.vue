@@ -154,11 +154,13 @@
     border-radius: 8px;
     border-radius: 8px;
     overflow: auto;
+    max-height: 90%
   }
   #myChart{
     padding: 10px;
     width: 100%;
     height: 2500px;
+;
   }
   .div-header{
   background-color:rgba(0, 0, 0, 0.8);
