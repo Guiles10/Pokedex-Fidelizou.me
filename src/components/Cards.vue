@@ -115,10 +115,10 @@ export default class Cards extends Vue {
 
    show_pokemon(id: number) {
     axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`)
-    .then((response) => {
+    .then((response: any) => {
       this.info_pokemon = response.data;
     })
-    .catch((error) => {
+    .catch((error: any) => {
       console.error(error);
     });
   }
@@ -194,6 +194,7 @@ export default class Cards extends Vue {
   color: white;
   width:  400px;
   height: 715px;
+  max-width: 90%;
   border: 3px solid rgb(216, 209, 209);
   border-radius: 8px;
 }
